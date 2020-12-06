@@ -1,0 +1,15 @@
+# prevent from being copied onto Docker image:
+
+#  local modules and debug logs
+node_modules
+npm-debug.log
+
+# local build files
+dist
+
+# AWS EB
+.elasticbeanstalk
+
+# Git files
+.git
+.gitignore
